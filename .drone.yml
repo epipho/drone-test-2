@@ -2,3 +2,4 @@ image: busybox:ubuntu-14.04
 
 script:
   - env
+  
