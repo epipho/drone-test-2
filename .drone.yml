@@ -6,10 +6,11 @@ script:
 publish:
   docker:
     docker_host: tcp://172.17.8.101:2375
+    docker_version: local
     image_name: quay.io/epipho/test
     username: $$username
     password: $$password
     email: $$email
     registry_login: true
     registry_login_url: quay.io
-    tags: ["tag27", "tag28"]
+    tags: ["tag29", "tag30"]
