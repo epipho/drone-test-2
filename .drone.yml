@@ -1,8 +1,5 @@
 image: quay.io/epipho/docker:latest
 
-docker:
-    net: host
-
 script:
   - ip addr show
 
