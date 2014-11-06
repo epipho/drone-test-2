@@ -2,7 +2,6 @@ image: quay.io/epipho/docker:latest
 
 script:
   - env
-  - ip addr show
 
 publish:
   docker:
