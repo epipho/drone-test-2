@@ -12,4 +12,4 @@ publish:
     email: $$email
     registry_login: true
     registry_login_url: quay.io
-    tags: ["tag35", "tag36"]
+    tags: ["tag37", "tag38"]
