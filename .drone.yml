@@ -1,7 +1,7 @@
 image: quay.io/epipho/docker:latest
 
 script:
-  - ip addr show
+  - env
 
 publish:
   docker:
@@ -12,4 +12,4 @@ publish:
     email: $$email
     registry_login: true
     registry_login_url: quay.io
-    tags: ["tag33", "tag34"]
+    tags: ["tag35", "tag36"]
