@@ -1,4 +1,4 @@
-image: broken
+image: go1.3
 
 script:
   - env
