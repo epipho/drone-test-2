@@ -1,4 +1,4 @@
-image: quay.io/epipho/docker:latest
+image: ubuntu
 
 script:
   - env
