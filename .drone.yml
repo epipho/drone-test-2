@@ -6,7 +6,7 @@ script:
 publish:
   docker:
     docker_host: tcp://172.17.8.101:2375
-    image_name: quay.io/epipho/test
+    image_name: quay.io/epipho/docker
     username: $$username
     password: $$password
     email: $$email
