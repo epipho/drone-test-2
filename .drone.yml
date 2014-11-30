@@ -12,4 +12,4 @@ publish:
     email: $$email
     registry_login: true
     registry_login_url: quay.io
-    tags: [$$DRONE_BUILD_NUMBER, $$CI_BUILD_NUMBER]
+    tags: [$DRONE_BUILD_NUMBER, $CI_BUILD_NUMBER]
