@@ -13,4 +13,3 @@ publish:
     registry_login: true
     registry_login_url: quay.io
     tags: ["tag37", "tag38"]
-    
