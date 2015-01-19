@@ -2,14 +2,3 @@ image: go1.3
 
 script:
   - env
-
-publish:
-  docker:
-    docker_host: tcp://172.17.8.101:2375
-    image_name: quay.io/epipho/test
-    username: $$username
-    password: $$password
-    email: $$email
-    registry_login: true
-    registry_login_url: quay.io
-    tags: ["tag37", "tag38"]
